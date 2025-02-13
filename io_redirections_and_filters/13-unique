@@ -1,0 +1,2 @@
+#!/bin/bash
+printf "cup\nspoon\ncup\ngit\ngit\n" | sort | uniq -u
