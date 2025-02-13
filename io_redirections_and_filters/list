@@ -29,3 +29,4 @@ ASP
 julien@ubuntu:/tmp/0x02$ cat list | ./13-unique 
 julien@ubuntu:/tmp/0x02$ cat list | ./13-unique 
 EOF
+sort lists
