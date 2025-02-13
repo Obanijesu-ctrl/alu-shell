@@ -1,2 +1,2 @@
 #!/bin/bash
-if find . -type f -name "hello" -user guillaume >/dev/null; then sudo chown vincent hello; fi
+[[ $(stat -c '%U' hello) == "guillaume" ]]| sudo chown vincent hello
