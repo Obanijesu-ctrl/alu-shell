@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chown guillaume hello|sudo chown vincent hello
+if find . -type f -name "hello" -user guillaume >/dev/null; then sudo chown vincent hello; fi
