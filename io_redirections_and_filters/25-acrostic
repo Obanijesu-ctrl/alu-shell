@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c1 acrostic.txt | paste -sd "" - | echo
+cut -c1 acrostic.txt | tr -d '\n'; echo	
