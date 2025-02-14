@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c1 acrostic.txt
+cut -c1 acrostic.txt | paste -sd ''
