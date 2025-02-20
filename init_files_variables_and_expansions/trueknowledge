@@ -1,0 +1,3 @@
+#!/bin/bash
+TRUEKNOWLEDGE="24"
+ echo $TRUEKNOWLEDGE
