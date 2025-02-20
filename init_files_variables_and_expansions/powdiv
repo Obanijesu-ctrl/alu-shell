@@ -1,0 +1,5 @@
+#!/bin/bash
+POWER="8"
+DIVIDE="4"
+echo $POWER
+echo $DIVIDE

@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $((DIVIDE == 0 ? 0 : POWER / DIVIDE))
