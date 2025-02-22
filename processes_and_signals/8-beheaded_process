@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# Use pkill to kill processes by name
+pkill -f "highlander"
